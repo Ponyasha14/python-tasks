@@ -26,6 +26,8 @@ sel_sort(a)
 t2 = pc()
 print(t2 - t1)
 
+print(123)
+
 t1 = pc()
 sorted(a)
 t2 = pc()
