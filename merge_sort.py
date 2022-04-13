@@ -37,11 +37,11 @@ def merge(left, right):
 
 
 
-a = [random.randint(0, 100) for i in range(1000)]
-to_be_checked = sorted(a.copy())
-# print(to_be_checked, merge_sort(a), end='\n')
-assert to_be_checked == merge_sort(a)
-t1 = pc()
-merge_sort(a)
-t2 = pc()
-print(t2 - t1)
+# a = [random.randint(0, 100) for i in range(1000)]
+# to_be_checked = sorted(a.copy())
+# # print(to_be_checked, merge_sort(a), end='\n')
+# assert to_be_checked == merge_sort(a)
+# t1 = pc()
+# merge_sort(a)
+# t2 = pc()
+# #print(t2 - t1)
